@@ -1,0 +1,102 @@
+[
+{
+application_form_id: "5c1f82d6478a823b80a75232",
+id_number_ktp: 1709376414,
+name_applicant_basedonid: "applicant 1",
+current_address: "Alamat 1",
+number_phone: 1783002643,
+email: "applicant1@gmail.com",
+length_of_work: 40,
+status_of_residence: 1
+},
+{
+application_form_id: "5c1f82d6478a823b80a75233",
+id_number_ktp: 42687556,
+name_applicant_basedonid: "applicant 2",
+current_address: "Alamat 2",
+number_phone: 2139241420,
+email: "applicant2@gmail.com",
+length_of_work: 40,
+status_of_residence: 2
+},
+{
+application_form_id: "5c1f82d6478a823b80a75234",
+id_number_ktp: 607953430,
+name_applicant_basedonid: "applicant 3",
+current_address: "Alamat 3",
+number_phone: 387088591,
+email: "applicant3@gmail.com",
+length_of_work: 40,
+status_of_residence: 1
+},
+{
+application_form_id: "5c1f82d6478a823b80a75235",
+id_number_ktp: 276446946,
+name_applicant_basedonid: "applicant 4",
+current_address: "Alamat 4",
+number_phone: 181202973,
+email: "applicant4@gmail.com",
+length_of_work: 40,
+status_of_residence: 1
+},
+{
+application_form_id: "5c1f82d6478a823b80a75236",
+id_number_ktp: 1829340162,
+name_applicant_basedonid: "applicant 5",
+current_address: "Alamat 5",
+number_phone: 1776745350,
+email: "applicant5@gmail.com",
+length_of_work: 40,
+status_of_residence: 2
+},
+{
+application_form_id: "5c1f82d6478a823b80a75237",
+id_number_ktp: 948420664,
+name_applicant_basedonid: "applicant 6",
+current_address: "Alamat 6",
+number_phone: 1163084760,
+email: "applicant6@gmail.com",
+length_of_work: 40,
+status_of_residence: 2
+},
+{
+application_form_id: "5c1f82d6478a823b80a75238",
+id_number_ktp: 1081336541,
+name_applicant_basedonid: "applicant 7",
+current_address: "Alamat 7",
+number_phone: 1836828781,
+email: "applicant7@gmail.com",
+length_of_work: 40,
+status_of_residence: 2
+},
+{
+application_form_id: "5c1f82d6478a823b80a75239",
+id_number_ktp: 1754613821,
+name_applicant_basedonid: "applicant 8",
+current_address: "Alamat 8",
+number_phone: 852680023,
+email: "applicant8@gmail.com",
+length_of_work: 40,
+status_of_residence: 2
+},
+	{
+	application_form_id: "5c1f82d6478a823b80a7523a",
+	id_number_ktp: 575216350,
+	name_applicant_basedonid: "applicant 9",
+	current_address: "Alamat 9",
+	number_phone: 389532822,
+	email: "applicant9@gmail.com",
+	length_of_work: 40,
+	status_of_residence: 1
+	},
+	{
+	application_form_id: "5c1f82d6478a823b80a7523b",
+	id_number_ktp: 2034130607,
+	name_applicant_basedonid: "applicant 10",
+	current_address: "Alamat 10",
+	number_phone: 1895951246,
+	email: "applicant10@gmail.com",
+	length_of_work: 40,
+	status_of_residence: 2
+	}
+]
