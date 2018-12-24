@@ -31,7 +31,7 @@
                             <td>{{$data['email']}}</td>
                             <td>{{$data['length_of_work']}}</td>
                             <td>{{$data['status_of_residence']}}</td>
-                            <td>{{$data->applicationform['kode_peminjaman']}}</td>
+                            <td>{{$data->applicationform['kode_peminjaman'] ?? ''}}</td>
                             <td><a href="/data_applicant/edit/{{$data['_id']}}">Edit</a>
                                 <a href="/data_applicant/delete/{{$data['_id']}}">Hapus</a>
                             </td>

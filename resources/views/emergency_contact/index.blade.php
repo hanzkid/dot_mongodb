@@ -21,7 +21,7 @@
                     <tbody>
                         @foreach($emergency_contact as $contact)
                         <tr>
-                            <td>{{$contact->applicationform->dataapplicant['name_applicant_basedonid']}}</td>
+                            <td>{{$contact->applicationform->dataapplicant['name_applicant_basedonid'] ?? ''}}</td>
                             <td>{{$contact->name_contact}}</td>
                             <td>{{$contact->emergency_address}}</td>
                             <td>{{$contact->emergency_number}}</td>

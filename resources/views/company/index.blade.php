@@ -22,7 +22,7 @@
 	                    <tbody>
 	                    	@foreach($company as $com)
 	                    	<tr>
-	                    		<td>{{$com->applicationform->dataapplicant['name_applicant_basedonid']}}</td>
+	                    		<td>{{$com->applicationform->dataapplicant['name_applicant_basedonid'] ?? ''}}</td>
 	                    		<td>{{$com['name_company']}}</td>
 	                    		<td>{{$com['company_phone_number']}}</td>
 	                    		<td>{{$com['company_address']}}</td>

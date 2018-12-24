@@ -21,11 +21,11 @@
 	                    <tbody>
 	                    	@foreach($tenor as $data)
 	                    	<tr>
-	                    		<td>{{$data->applicationform['kode_peminjaman']}}</td>
-	                    		<td>{{$data->applicationform->dataapplicant['name_applicant_basedonid']}}</td>
+	                    		<td>{{$data->applicationform['kode_peminjaman'] ?? ''}}</td>
+	                    		<td>{{$data->applicationform->dataapplicant['name_applicant_basedonid'] ?? ''}}</td>
 	                    		<td>{{number_format($data->amount_of_loan)}}</td>
-	                    		<td>{{$data->number_rekening_transfer}}</td>
-	                    		<td>{{$data->length_of_loan}}</td>
+	                    		<td>{{$data['number_rekening_transfer']}}</td>
+	                    		<td>{{$data['length_of_loan']}}</td>
 	                    		<td><a href="/tenor/edit/{{$data['_id']}}">Edit</a>
 	                    			<a href="/tenor/delete/{{$data['_id']}}">Hapus</a></td>
 	                    	</tr>
